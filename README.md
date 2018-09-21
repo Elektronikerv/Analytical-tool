@@ -1,13 +1,11 @@
 # Analytical-tool
 
 #### The Problem
-
 Webhosting company provide customer support via emil. They record reply waiting time, type of
 question, category and service. To improve customer satisfaction, they need analytical tool to
 evaluate these data.
 
 #### Input
-
 Company provide 10 different service, each with 3 variations. Questions are divided into 10
 types, each can belong to 20 categories, a category can have 5 sub categories.<br>
 First line contains count S (<= 100.000) of all lines.<br>
@@ -29,7 +27,6 @@ services/question types. In case of value “*”, no service variation nor serv
 category/sub-category can be specified.<br>
 
 #### Output
-
 Query line of type ‘D’ print out average waiting time rounded to minutes. Only matching lines
 defined before query line are counted. It print out “-” if output is not defined.<br>
 
@@ -47,7 +44,7 @@ Output:<br>
 83<br>
 100<br>
 -<br>
-#### Explanation<br>
+#### Explanation
 1.query at line 5, is valid only for 1. data line, because others has different question type. First
 data line has question type 8.15.1 which match with query of question type 8.<br>
 2.queryis valid only for 1. and 3. data lines, 2. data line not matching date filter., and 4.data line
